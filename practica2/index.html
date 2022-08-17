@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="shortcut icon" href="pelota.ico" type="image/x-icon">
+        <title>TABLES AND FORMS</title>
+        <style>
+            * {
+            font-family:'Times New Roman', Times, serif;
+            background-color: rgb(161, 228, 255);
+            }
+        </style>
+        <style>
+            table,
+            td,
+            th {
+                border: 1px solid black;
+                border-collapse: collapse;
+                padding: 5px;
+            }
+            table {
+                width: 100%;
+            }
+        </style>
+    </head>
+
+    <body>
+
+        <div>
+            <h1>PRACTICA 2: TABLAS Y FORMULARIOS</h1>
+            <hr>
+        </div>
+        <div>
+            <h3>TABLA BASICA</h3>
+            <p>Este es un parrafo que habla sobre las tablas simple, las tablas simples no tienen thead, tbody y tfoot, solamenta filas y columnas simples.</p>
+            <br>
+            <table>
+                <caption>JUGADORES</caption>
+                <tr>
+                    <th>NOMBRE</th>
+                    <th>EDAD</th>
+                    <th>ESTADO CIVIL</th>
+                </tr>
+                <tr>
+                    <td>Aquiles Torresi</td>
+                    <td>20</td>
+                    <td>Casado</td>
+                </tr>
+                <tr>
+                    <td>Esteban Ferreyra</td>
+                    <td>19</td>
+                    <td>Soltero</td>
+                </tr>
+                <tr>
+                    <td>Luciano Beltramino</td>
+                    <td>18</td>
+                    <td>Soltero</td>
+                </tr>
+            </table>
+            <br>
+            <hr>
+        </div>
+
+        <div>
+            <h3>TABLA COMPLEJA</h3>
+            <p>Las tablas complejas tiene etiquetas como thead, tbody y tfoot que son para delimitar las partes de una tabla para poder darle diferente estilo.</p>
+            <br>
+            <table>
+                <caption>GOLEADORES</caption>
+                <thead>
+                    <tr>
+                        <th>NOMBRE</th>
+                        <th>EQUIPO</th>
+                        <th>GOLES</th>
+                        <th>COPAS</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>Aquiles Torresi</td>
+                        <td>Club Atletico Fortaleza</td>
+                        <td>15</td>
+                        <td>2</td>
+                    </tr>
+                    <tr>
+                        <td>Manuel Nievas</td>
+                        <td>Club Atletico 25 De Mayo</td>
+                        <td>7</td>
+                        <td>1</td>
+                    </tr>
+                    <tr>
+                        <td>Enrique Paredes</td>
+                        <td>Club Atletico Paranaense</td>
+                        <td>17</td>
+                        <td>3</td>
+                    </tr>
+                    <tr>
+                        <td>Leandro Lopez</td>
+                        <td>Club Atletico Sarmiento</td>
+                        <td>4</td>
+                        <td>0</td>
+                    </tr>
+                </tbody>
+                <tfoot>
+                    <tr>
+                        <td colspan="2">El mayor goleador tiene</td>
+                        <td>17 goles</td>
+                    </tr>
+                </tfoot>
+            </table>
+            <br>
+            <hr>
+        </div>
+    </body>
+
+</html>
